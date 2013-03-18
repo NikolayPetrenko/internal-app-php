@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'dejavusans';
+    src: url('../font/DejaVuSans.ttf') format('truetype');
+}
+
+body {
+	font-family: 'dejavusans';
+}
+h3 {
+	font-size: 24px;
+	color: #333;
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+
+.questions {
+	margin-left: 30px;
+}
+
+	.questions .question {
+		margin-bottom: 85px;	
+	}
+
+			.questions .question .questiontext .quest {
+				color: #000000;
+				font-size: 16px;
+			}
+
+			.questions .question .questiontext .quest.text {
+				margin-left: 5px;
+			}
+
+				.questions .question .questiontext .quest img {
+					margin-left: 30px;
+					margin-top: 10px;
+					max-width: 200px;
+				}
+
+		.questions .question .answers, .questions .question .stripe {
+			margin-left: 15px;	
+		}
+
+			.questions .question .answers {
+				margin-top: 5px;
+			}
+
+			.questions .question .answers li {
+				margin-bottom: 5px;
+				padding-left: 15px;
+			}
+
+		.questions .question .stripe {
+			margin:0 auto 30px;
+			width: 95%;
+		}
+
+			.questions .question .stripe hr {
+				margin-top: 30px;
+                padding-left: 15px;
+			}
+
+
+.answers li:after {
+  display: block;
+  content: ".";
+  clear: both;
+  font-size: 0;
+  line-height: 0;
+  height: 0;
+  overflow: hidden; }
